@@ -4,6 +4,7 @@ import Checkbox from "@/components/input/checkbox";
 import Dropdown from "@/components/input/dropdown";
 
 import InputText from "@/components/input/inputText";
+import SearchInput from "@/components/input/SearchInput";
 import SelectInput from "@/components/input/SelectInput";
 
 import Main from "@/layout/main/Main";
@@ -55,6 +56,13 @@ export default function InputTest() {
         <div className="py-4">
           <AmountInput
             placeholder="min."
+          // options={["Option 1", "Option 2", "Option 3"]}
+          // onSelect={handleOptionSelect}
+          />
+        </div>
+        <div className="py-4">
+          <SearchInput
+            placeholder="Search"
           // options={["Option 1", "Option 2", "Option 3"]}
           // onSelect={handleOptionSelect}
           />

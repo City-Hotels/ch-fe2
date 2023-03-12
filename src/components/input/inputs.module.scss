@@ -29,6 +29,22 @@
   @apply  absolute z-0 right-0 flex h-[54px] w-[54px] mx-0 border-l border-grey30 items-center justify-center rounded-l-none rounded-r-lg;
 }
 
+.search{
+  @apply inputs_no_border;
+}
+
+.search::-webkit-input-placeholder {
+  @apply text-grey40 text-[14px] leading-[26px];
+}
+
+.search::-moz-placeholder {
+  @apply text-grey40 text-[14px] leading-[26px];
+}
+
+.search:-ms-input-placeholder {
+  @apply text-grey40 text-[14px] leading-[26px];
+}
+
 
 
 .drop {

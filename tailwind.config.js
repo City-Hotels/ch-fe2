@@ -22,7 +22,8 @@ module.exports = {
         primary900: "#082a66",
 
         grey20: "#F0F5F7",
-        grey30: "#DDDDDD"
+        grey30: "#DDDDDD",
+        grey40: "#717171"
       },
       fontFamily: {
         playfair: ['"Playfair Display"', "system-ui"],
