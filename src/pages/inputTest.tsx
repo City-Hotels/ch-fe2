@@ -1,9 +1,9 @@
-import AmountInput from "@/components/input/AmountInput";
-import InputText from "@/components/input/inputText";
-import SearchInput from "@/components/input/SearchInput";
 import Checkbox from "@/components/shared/checkbox/Checkbox";
 import Dropdown from "@/components/shared/dropdown/dropdown";
 import SelectInput from "@/components/shared/dropdown/SelectInput";
+import AmountInput from "@/components/shared/input/AmountInput";
+import TextInput from "@/components/shared/input/TextInput";
+import SearchInput from "@/components/shared/input/SearchInput";
 import Main from "@/layout/main/Main";
 
 export default function InputTest() {
@@ -17,7 +17,7 @@ export default function InputTest() {
   return (
     <div>
       <Main>
-        <InputText
+        <TextInput
           label="Username"
           name="username"
           placeholder="Enter Your Username"

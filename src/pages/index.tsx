@@ -2,7 +2,7 @@ import Hero from "@/components/home/hero/Hero";
 import Button from "@/components/shared/button/Button";
 import CheckboxList from "@/components/shared/checkbox/CheckboxList";
 import Dropdown from "@/components/shared/dropdown/dropdown";
-import InputText from "@/components/shared/input/inputText";
+import InputText from "@/components/shared/input/TextInput";
 import Meta from "@/components/shared/meta/Meta";
 import Main from "@/layout/main/Main";
 import { useState } from "react";

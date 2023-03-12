@@ -1,5 +1,5 @@
-import { Label } from "../shared/font/Fonts";
-import styles from "./inputs.module.scss";
+import { Label } from "../font/Fonts";
+import styles from "./input.module.scss";
 
 interface InputProps extends React.HTMLProps<HTMLInputElement> {
   label?: string;
@@ -7,7 +7,7 @@ interface InputProps extends React.HTMLProps<HTMLInputElement> {
   placeholder?: string;
 }
 
-const InputText: React.FC<InputProps> = ({
+const TextInput: React.FC<InputProps> = ({
   label,
   name,
   placeholder,
@@ -30,4 +30,4 @@ const InputText: React.FC<InputProps> = ({
   );
 };
 
-export default InputText;
+export default TextInput;
