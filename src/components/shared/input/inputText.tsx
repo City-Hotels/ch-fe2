@@ -1,4 +1,4 @@
-import { Label } from "../shared/font/Fonts";
+import { Label } from "../font/Fonts";
 import styles from "./inputs.module.scss";
 
 interface InputProps extends React.HTMLProps<HTMLInputElement> {

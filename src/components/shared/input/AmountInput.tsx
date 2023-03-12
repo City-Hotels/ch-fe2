@@ -1,4 +1,4 @@
-import { Label } from "../shared/font/Fonts";
+import { Label } from "../font/Fonts";
 import styles from "./inputs.module.scss";
 
 interface InputProps extends React.HTMLProps<HTMLInputElement> {
@@ -19,7 +19,7 @@ const AmountInput: React.FC<InputProps> = ({
         {label}
       </Label>
       <div className={styles.input_wrapper}>
-        <div className={styles.input_prepend}>$</div>
+        <span className={styles.input_prepend}> $ </span>
         <input
           className={styles.inputs_no_border}
           id={name}
