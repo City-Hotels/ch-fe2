@@ -1,0 +1,37 @@
+.inputs {
+  width: 100%;
+  @apply border px-5 py-4 my-3 border-grey30 h-[54px] rounded-lg focus:outline-0 focus:border-primary400;
+}
+
+// Select Input styles
+.select__wrapper{
+  @apply flex items-center w-full focus:border  border-grey30;
+}
+
+.select{
+  @apply w-full border px-5 py-4 my-3 h-[54px] cursor-pointer rounded-l-lg focus:outline-0 focus:border-primary400 border-grey30 appearance-none ;
+}
+
+.select__caret{
+  @apply flex h-[54px] w-[54px] border border-grey30 items-center justify-center rounded-l-none rounded-r-lg;
+}
+
+.drop {
+  border: 1px solid #dddddd;
+  width: 50%;
+  height: 35px;
+  padding-left: 40px;
+}
+.drop:focus {
+  outline: none;
+}
+
+.check {
+  display: flex;
+}
+
+.checkbox {
+  width: 25px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
