@@ -1,3 +1,4 @@
+import AmountInput from "@/components/input/AmountInput";
 import Checkbox from "@/components/input/checkbox";
 
 import Dropdown from "@/components/input/dropdown";
@@ -44,6 +45,16 @@ export default function InputTest() {
         </div>
         <div className="py-4">
           <SelectInput
+          // options={["Option 1", "Option 2", "Option 3"]}
+          // onSelect={handleOptionSelect}
+          >
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </SelectInput>
+        </div>
+        <div className="py-4">
+          <AmountInput
+            placeholder="min."
           // options={["Option 1", "Option 2", "Option 3"]}
           // onSelect={handleOptionSelect}
           />

@@ -3,18 +3,33 @@
   @apply border px-5 py-4 my-3 border-grey30 h-[54px] rounded-lg focus:outline-0 focus:border-primary400;
 }
 
+.inputs_no_border {
+  width: 100%;
+  @apply px-2 border-y border-grey30  h-[54px] rounded-l focus:outline-0
+}
+
+.input_wrapper {
+  width: 100%;
+  @apply border flex items-center px-3 py-4 my-3  border-grey30 h-[54px] rounded-lg focus:outline-0 focus:border-primary400;
+}
+
+.input_prepend{
+  @apply border-0 w-[15px] items-center justify-center rounded-l-none rounded-r-lg;
+}
 // Select Input styles
 .select__wrapper{
-  @apply flex items-center w-full focus:border  border-grey30;
+  @apply relative flex items-center  h-[54px] w-full focus:border  border-grey30;
 }
 
 .select{
-  @apply w-full border px-5 py-4 my-3 h-[54px] cursor-pointer rounded-l-lg focus:outline-0 focus:border-primary400 border-grey30 appearance-none ;
+  @apply w-full z-10 bg-transparent border px-5 py-0 my-3 h-full cursor-pointer rounded-lg focus:outline-0 focus:border-primary400 border-grey30 appearance-none ;
 }
 
 .select__caret{
-  @apply flex h-[54px] w-[54px] border border-grey30 items-center justify-center rounded-l-none rounded-r-lg;
+  @apply  absolute z-0 right-0 flex h-[54px] w-[54px] mx-0 border-l border-grey30 items-center justify-center rounded-l-none rounded-r-lg;
 }
+
+
 
 .drop {
   border: 1px solid #dddddd;
