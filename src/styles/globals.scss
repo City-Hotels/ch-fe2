@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #fe8501;
+}
+
+
 body {
   font-family: 'Poppins',  'Playfair Display', serif;
+
+
 }
