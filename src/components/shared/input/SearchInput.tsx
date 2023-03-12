@@ -1,5 +1,5 @@
 import { AiOutlineSearch } from "react-icons/ai";
-import { Label } from "../shared/font headers/Fonts";
+import { Label } from "../font/Fonts";
 import styles from "./inputs.module.scss";
 
 interface InputProps extends React.HTMLProps<HTMLInputElement> {
